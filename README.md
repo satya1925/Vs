@@ -31,7 +31,7 @@ a {
         }
         .container {
             margin: 30px;
-            max-width: 800px;
+            max-width: 100%;
             overflow: hidden;
         }
         .image-container {
