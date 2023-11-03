@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -264,8 +264,6 @@ At Peethani vari Street,</p> Pekeru,Iragavaram near Tanuku,
        <p style="font-size:20px"
        ">25-19-1925</p>
    </section>
-   <audio autoplay>
-  <source src="http://www.example.com/horse.mp3" type="audio/mpeg">
-</audio>
+   
 </body>
 </html>
