@@ -98,6 +98,7 @@ a {
      zoom:50%;
      font-family: "BD-Merced",serif;
     padding: 28px;
+    margin: 40px 0 0 0;
 }
 .heading {
     font-family: 'BD-Merced',serif;
@@ -162,7 +163,7 @@ content: attr(data-open);
 </head>
 <body>
     <img class="picrop" src="https://img1.wsimg.com/isteam/ip/922c4dea-460f-42cf-a63c-ffd4622d2504/ols/Comp%201%20(0%3B00%3B02%3B26).jpg/:/rs=w:1200,h:1200" alt="">
-    <h1 id="head"><br></br>View Photos</h1>
+    <h1 id="head"> View Photos</h1>
     <div class="container">
         <div class="image-container">
             <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8W4TBLtXjI6nbIRPxzRJ53kCE68cdcoJiA&usqp=CAU" alt="Bride's Photo">
@@ -184,7 +185,7 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5R6Lwfif5X6Xp7AaUl0
     </div></section>
    <!-- videos heading -->
     <div class="container2"><br>
-       <h1 id="head"> <br></br>Videos&Locations</h1>
+       <h1 id="head"> Videos&Locations </h1>
         
         <!-- Video for the wedding ceremony -->
         <iframe src="https://www.youtube.com/embed/-PQ5W8SEFXs?autoplay=0&mute=1" frameborder="0" allowfullscreen></iframe>
@@ -264,6 +265,5 @@ At Peethani vari Street,</p> Pekeru,Iragavaram near Tanuku,
        <p style="font-size:20px"
        ">25-19-1925</p>
    </section>
-   
 </body>
 </html>
