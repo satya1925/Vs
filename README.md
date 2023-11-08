@@ -59,7 +59,7 @@
         Your browser does not support the video tag.
     </video>
 
-  <a href="groom.html">  <div class="welcome-text">
+  <a href="love">  <div class="welcome-text">
         <h4>Wedding Invitation </h4>
         <h3>Sai ♡ lalitha</h3>
         <p>save date <br><b>19-25-1925</b></p>
