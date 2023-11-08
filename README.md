@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,8 +41,7 @@
    -webkit-box-shadow:0px 0px 190px 27px rgba(0,0,0,0.34);
    -moz-box-shadow: 0px 0px 190px 27px rgba(0,0,0,0.34);
    box-shadow: 0px 0px 190px 27px rgba(0,0,0,0.34);
- animation: mylove 3s linear 0s infinite normal none running; 
-        }
+   }
   
        .id
         {
@@ -74,7 +73,6 @@
         <h3>Sai ♡ lalitha</h3>
         <p>save date <br><b>19-25-1925</b></p>
         <p class="id">Enter site</p>
-        <p>(or)</p>
         <caption>select one from your side</caption><br>
         <input type="button" value="groom "><input type="button" value="bride">
     </div>
