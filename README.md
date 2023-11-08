@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,20 +25,25 @@
 
         .welcome-text {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             text-align: center;
             color: white;
             font-size: 100%;
-            backdrop-filter: blur(1px);     
+            backdrop-filter: blur(10px);     
           background-color: rgba(0, 0, 0, 0.01);
              padding: 10px; 
              border-radius: 10px;
              border: solid 1px white;
              color: black;
-             zoom: 150%;
+            top: 25%;
+            right:25%;
+            height: 50%;
+            width: 50%;
+   -webkit-box-shadow:0px 0px 190px 27px rgba(0,0,0,0.34);
+   -moz-box-shadow: 0px 0px 190px 27px rgba(0,0,0,0.34);
+   box-shadow: 0px 0px 190px 27px rgba(0,0,0,0.34);
+ animation: mylove 3s linear 0s infinite normal none running; 
         }
+  
        .id
         {
             color: #002264;
@@ -51,6 +56,11 @@
             color: #ff946a;
        font-family: 'Brush Script MT',cursive;
         }
+        input {
+            background-color: #ffbfbf;
+            border-color: white;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -59,11 +69,14 @@
         Your browser does not support the video tag.
     </video>
 
-  <a href="love">  <div class="welcome-text">
+  <a href="groom.html">  <div class="welcome-text">
         <h4>Wedding Invitation </h4>
         <h3>Sai ♡ lalitha</h3>
         <p>save date <br><b>19-25-1925</b></p>
-        <p class="id">Enter</p>
+        <p class="id">Enter site</p>
+        <p>(or)</p>
+        <caption>select one from your side</caption><br>
+        <input type="button" value="groom "><input type="button" value="bride">
     </div>
     </a>
 </body>
