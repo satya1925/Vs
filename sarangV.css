@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: serif;
+    display: flex; 
+    justify-content: space-between;
+    font-size: 1em;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-filter: blur;
+        }
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            height: 100%;
+            background-size: cover;
+            z-index: -100;
+        }
+.wellcometext {
+ position: absolute;
+ text-align: center;
+ color: white;
+ font-size: 100%;
+ backdrop-filter: blur(10px);       
+ background-color: rgba(0, 0, 0, 0.01);
+ padding: 10px; 
+ border-radius: 10px;
+ border: solid 1px white;
+ color: black;
+ top: 50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ height: 50%;
+ width: 50%;
+ box-shadow: 0px 0px 10px rgba(0,0,0,0.34);
+ animation: mylove 3s linear 0s infinite normal none running; 
+     }
+        .container2 {
+           top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            position: relative;
+        }
+       .id
+        {
+            color: #002264;
+            background-color: transparent;
+            border:solid 1px black ;
+            border-radius: 5px;
+            font-size:90%;
+            
+        }
+        h3 {
+            color: #ff946a;
+       font-family: 'Brush Script MT',cursive;
+        }
+        input {
+            background-color: #ffbfbf;
+            border-color: white;
+            margin: 10px;
+        }
+        .border{
+        position : absolute;
+        z-index: 10;
+        width: 100%;
+      
+        }
+        .top {
+            top: 0%;
+          transform: rotate(180deg);
+          opacity: 2;
+            
+        }
+        .bottom {
+            bottom: 0%;
+        }
+ body:hover .wellcometext {
+ animation: shadow 5s linear alternate infinite ; }
+ 
+ @keyframes  shadow{
+   0% { box-shadow: 0 0 10px rgba(200, 0, 0, 0.5)}
+   100% {box-shadow: 0 0 10px rgba(0, 0, 0, 5)}
+ }
