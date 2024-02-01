@@ -87,3 +87,21 @@ body {
    0% { box-shadow: 0 0 10px rgba(200, 0, 0, 0.5)}
    100% {box-shadow: 0 0 10px rgba(0, 0, 0, 5)}
  }
+.date {
+    font-size: 0.7em;
+    border: 1px solid purple;
+    border-radius: 8px; 
+
+}
+legend {
+    text-align: left;
+}
+#id {
+    font-size: 0.8em;
+    width: 8em;
+    margin-left: 2.5em;
+    margin-top: 3em;
+}
+.cp {
+    font-size: 85%;
+}
