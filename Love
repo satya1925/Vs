@@ -20,8 +20,8 @@
         <h3>Sai ♡ lalitha</h3>
         <fieldset class="date">
         <legend>save date</legend>
-        <b>25-02-2024 (Sunday)</b><br>
-        time: <i>(3am Monday)</i></fieldset>
+        <b>25-02-2024 (Sunday)</b>
+        </fieldset>
         <p class="id" id="id">Enter Site</p>
         <p>(or)</p>
         <div class="cp">Select one from Your side</div><br>  
