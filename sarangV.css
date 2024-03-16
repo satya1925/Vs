@@ -1,24 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     font-family: serif;
-    display: flex; 
-    justify-content: space-between;
-    font-size: 1em;
-    background-image: url('bg.jpeg');
+    font-size: clamp(1em,1vw,90%);
+    background-image: url('https://img.freepik.com/free-psd/watercolor-wedding-border-design_23-2151179952.jpg?size=626&ext=jpg&ga=GA1.1.276738536.1708265607&semt=ais');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-filter: blur;
         }
         video {
-            position: fixed;
+            position: auto;
             right: 0;
             bottom: 0;
             min-width: 100%;
             min-height: 100%;
-            height: 100%;
+            height: 100hv;
+            wwidth: 100wv;
             background-size: cover;
             z-index: -100;
         }
@@ -26,39 +24,33 @@ body {
  position: absolute;
  text-align: center;
  color: white;
- font-size: 100%;
  backdrop-filter: blur(10px);       
  background-color: rgba(0, 0, 0, 0.01);
  padding: 10px; 
+ margin-top: 10px;
  border-radius: 10px;
  border: solid 1px white;
  color: black;
+ /* changes */
  top: 50%;
  left:50%;
  transform: translate(-50%,-50%);
- height: 50%;
- width: 50%;
  box-shadow: 0px 0px 10px rgba(0,0,0,0.34);
  animation: mylove 3s linear 0s infinite normal none running; 
      }
-        .container2 {
-           top: 50%;
-            left:50%;
-            transform: translate(-50%,-50%);
-            position: relative;
-        }
+       /* remove one element */
        .id
         {
             color: #002264;
             background-color: transparent;
-            border:solid 1px black ;
+            border:1px solid black ;
             border-radius: 5px;
-            font-size:90%;
             
         }
-        h3 {
+        #gn, #bn {
             color: #ff946a;
        font-family: 'Brush Script MT',cursive;
+       font-size: 1.2em;
         }
         input {
             background-color: #ffbfbf;
@@ -69,7 +61,7 @@ body {
         position : absolute;
         z-index: 10;
         width: 100%;
-      
+        display: none;
         }
         .top {
             top: 0%;
@@ -88,16 +80,16 @@ body {
    100% {box-shadow: 0 0 10px rgba(0, 0, 0, 5)}
  }
 .date {
-    font-size: 0.7em;
+    font-size: 0.7em;    
     border: 1px solid purple;
     border-radius: 8px; 
-
+    padding: 1em 0.1em 1em 0;
 }
 legend {
     text-align: left;
 }
 #id {
-    font-size: 0.8em;
+font-size: clamp(12px, 2.5vw, 8px);
     width: 8em;
     margin-left: 2.5em;
     margin-top: 3em;
@@ -105,3 +97,16 @@ legend {
 .cp {
     font-size: 85%;
 }
+   @media only screen and (max-width: 768px) { body { background-image: none;
+    /* Remove background image for mobile */ }
+    .border{
+        display: flex;
+    } }
+   @media only screen and (min-height: 768px){
+       .border {
+           display: flex;
+       }
+       .wellcometext {
+           zoom: 250%;
+       }
+   }
